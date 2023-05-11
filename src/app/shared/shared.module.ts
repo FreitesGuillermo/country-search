@@ -7,6 +7,7 @@ import { AppRoutingModule } from '../app-routing.module';
 import { ContactComponent } from './pages/contact/contact.component';
 import { SearchBoxComponent } from './components/search-box/search-box.component';
 import { RouterModule } from '@angular/router';
+import { LoadingSpinnerComponent } from './components/loading-spinner/loading-spinner.component';
 
 
 
@@ -18,6 +19,7 @@ import { RouterModule } from '@angular/router';
     SidebarComponent,
     ContactComponent,
     SearchBoxComponent,
+    LoadingSpinnerComponent,
 
   ],
   exports: [
@@ -25,6 +27,7 @@ import { RouterModule } from '@angular/router';
     HomePagesComponent,
     SidebarComponent,
     SearchBoxComponent,
+    LoadingSpinnerComponent,
   ],
   imports: [
     CommonModule,
